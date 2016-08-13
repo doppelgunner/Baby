@@ -40,7 +40,6 @@ public class Baby implements Serializable {
         String product = "";
         ArrayList<Knowledge> listOfContents = brain.output(subject);
         listOfContents.remove(index);
-        System.out.println("Pooof..! one less memory, makes the baby happy!");
     }
 
 }

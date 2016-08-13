@@ -9,14 +9,14 @@ public class Knowledge implements Serializable {
 
     private static final long serialVersionUID = 809182409144L;
 
-    private String content;
+    private String text;
 
-    public Knowledge(String content)  {
-        this.content = content;
+    public Knowledge(String text)  {
+        this.text = text;
     }
 
     public String toString() {
-        return content;
+        return text;
     }
 
 }
